@@ -1,0 +1,6 @@
+@article{REPO271,
+    author = "Xu, Jiehui and Wu, Haixu and Wang, Jianmin and Long, Mingsheng",
+    journal = "arXiv preprint arXiv:2110.02642",
+    title = "{Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy}",
+    year = "2021"
+}
