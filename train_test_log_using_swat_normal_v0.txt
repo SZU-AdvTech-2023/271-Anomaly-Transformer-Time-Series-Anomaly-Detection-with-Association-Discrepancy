@@ -1,0 +1,534 @@
+(Anomaly-Transformer) ranlychan@ranlychan-ubuntu:/media/ranlychan/3E6E20236E1FD28F/Dev/Anomaly-Transformer$ bash ./scripts/SWaT.sh
+------------ Options -------------
+anormly_ratio: 0.5
+batch_size: 32
+data_path: dataset/SWaT
+dataset: SWaT
+input_c: 51
+k: 3
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 3
+output_c: 51
+pretrained_model: None
+win_size: 100
+-------------- End ----------------
+test: (449919, 51)
+train: (496799, 51)
+test: (449919, 51)
+train: (496799, 51)
+test: (449919, 51)
+train: (496799, 51)
+test: (449919, 51)
+train: (496799, 51)
+======================TRAIN MODE======================
+        speed: 0.1406s/iter; left time: 6534.8190s
+        speed: 0.1309s/iter; left time: 6070.1955s
+        speed: 0.1315s/iter; left time: 6086.0931s
+        speed: 0.1314s/iter; left time: 6065.7269s
+        speed: 0.1315s/iter; left time: 6056.3665s
+        speed: 0.1316s/iter; left time: 6046.9737s
+        speed: 0.1317s/iter; left time: 6038.9958s
+        speed: 0.1334s/iter; left time: 6107.2952s
+        speed: 0.1312s/iter; left time: 5993.4597s
+        speed: 0.1340s/iter; left time: 6104.7589s
+        speed: 0.1334s/iter; left time: 6066.1426s
+        speed: 0.1334s/iter; left time: 6054.0971s
+        speed: 0.1340s/iter; left time: 6067.1284s
+        speed: 0.1367s/iter; left time: 6174.6981s
+        speed: 0.1332s/iter; left time: 6003.4776s
+        speed: 0.1318s/iter; left time: 5924.4335s
+        speed: 0.1314s/iter; left time: 5894.7362s
+        speed: 0.1316s/iter; left time: 5890.2186s
+        speed: 0.1317s/iter; left time: 5881.3483s
+        speed: 0.1317s/iter; left time: 5868.6391s
+        speed: 0.1327s/iter; left time: 5901.9674s
+        speed: 0.1317s/iter; left time: 5844.4492s
+        speed: 0.1317s/iter; left time: 5829.4843s
+        speed: 0.1313s/iter; left time: 5799.0212s
+        speed: 0.1331s/iter; left time: 5864.4673s
+        speed: 0.1335s/iter; left time: 5869.9627s
+        speed: 0.1378s/iter; left time: 6043.9661s
+        speed: 0.1351s/iter; left time: 5911.4276s
+        speed: 0.1402s/iter; left time: 6123.1416s
+        speed: 0.1328s/iter; left time: 5787.7235s
+        speed: 0.1344s/iter; left time: 5842.4952s
+        speed: 0.1376s/iter; left time: 5966.7874s
+        speed: 0.1323s/iter; left time: 5722.7536s
+        speed: 0.1355s/iter; left time: 5849.9108s
+        speed: 0.1321s/iter; left time: 5687.7559s
+        speed: 0.1320s/iter; left time: 5672.1529s
+        speed: 0.1357s/iter; left time: 5817.6820s
+        speed: 0.1373s/iter; left time: 5872.0516s
+        speed: 0.1385s/iter; left time: 5910.4222s
+        speed: 0.1389s/iter; left time: 5912.1415s
+        speed: 0.1387s/iter; left time: 5891.2667s
+        speed: 0.1370s/iter; left time: 5804.1082s
+        speed: 0.1325s/iter; left time: 5600.4183s
+        speed: 0.1324s/iter; left time: 5583.8829s
+        speed: 0.1314s/iter; left time: 5528.9865s
+        speed: 0.1313s/iter; left time: 5511.4017s
+        speed: 0.1313s/iter; left time: 5495.8382s
+        speed: 0.1321s/iter; left time: 5518.4545s
+        speed: 0.1318s/iter; left time: 5491.6631s
+        speed: 0.1313s/iter; left time: 5456.8623s
+        speed: 0.1318s/iter; left time: 5465.8785s
+        speed: 0.1319s/iter; left time: 5455.7944s
+        speed: 0.1315s/iter; left time: 5424.5680s
+        speed: 0.1318s/iter; left time: 5425.8396s
+        speed: 0.1333s/iter; left time: 5474.4392s
+        speed: 0.1310s/iter; left time: 5367.0808s
+        speed: 0.1310s/iter; left time: 5354.3170s
+        speed: 0.1310s/iter; left time: 5338.6474s
+        speed: 0.1316s/iter; left time: 5351.3862s
+        speed: 0.1339s/iter; left time: 5430.5163s
+        speed: 0.1395s/iter; left time: 5644.7978s
+        speed: 0.1309s/iter; left time: 5282.1888s
+        speed: 0.1309s/iter; left time: 5269.1623s
+        speed: 0.1312s/iter; left time: 5271.1881s
+        speed: 0.1316s/iter; left time: 5271.9402s
+        speed: 0.1317s/iter; left time: 5262.7235s
+        speed: 0.1320s/iter; left time: 5261.9456s
+        speed: 0.1338s/iter; left time: 5319.3620s
+        speed: 0.1331s/iter; left time: 5278.3581s
+        speed: 0.1318s/iter; left time: 5214.3123s
+        speed: 0.1314s/iter; left time: 5186.2299s
+        speed: 0.1350s/iter; left time: 5313.0108s
+        speed: 0.1325s/iter; left time: 5203.2672s
+        speed: 0.1315s/iter; left time: 5150.3508s
+        speed: 0.1318s/iter; left time: 5147.9172s
+        speed: 0.1317s/iter; left time: 5130.3130s
+        speed: 0.1312s/iter; left time: 5097.7907s
+        speed: 0.1321s/iter; left time: 5122.1238s
+        speed: 0.1329s/iter; left time: 5137.6573s
+        speed: 0.1320s/iter; left time: 5091.3703s
+        speed: 0.1319s/iter; left time: 5074.2811s
+        speed: 0.1323s/iter; left time: 5077.6565s
+        speed: 0.1321s/iter; left time: 5056.3351s
+        speed: 0.1321s/iter; left time: 5041.1488s
+        speed: 0.1313s/iter; left time: 4997.4603s
+        speed: 0.1314s/iter; left time: 4988.3902s
+        speed: 0.1319s/iter; left time: 4993.8508s
+        speed: 0.1314s/iter; left time: 4963.1020s
+        speed: 0.1319s/iter; left time: 4967.8217s
+        speed: 0.1324s/iter; left time: 4972.9156s
+        speed: 0.1312s/iter; left time: 4913.8659s
+        speed: 0.1318s/iter; left time: 4923.6685s
+        speed: 0.1316s/iter; left time: 4903.8362s
+        speed: 0.1341s/iter; left time: 4985.4397s
+        speed: 0.1327s/iter; left time: 4919.0254s
+        speed: 0.1318s/iter; left time: 4872.6286s
+        speed: 0.1345s/iter; left time: 4958.1857s
+        speed: 0.1314s/iter; left time: 4830.4802s
+        speed: 0.1320s/iter; left time: 4840.3835s
+        speed: 0.1317s/iter; left time: 4814.1761s
+        speed: 0.1322s/iter; left time: 4822.1412s
+        speed: 0.1320s/iter; left time: 4799.9528s
+        speed: 0.1316s/iter; left time: 4774.0217s
+        speed: 0.1331s/iter; left time: 4812.3581s
+        speed: 0.1327s/iter; left time: 4786.8221s
+        speed: 0.1345s/iter; left time: 4837.6589s
+        speed: 0.1372s/iter; left time: 4922.3648s
+        speed: 0.1343s/iter; left time: 4801.7599s
+        speed: 0.1317s/iter; left time: 4695.8728s
+        speed: 0.1333s/iter; left time: 4740.4682s
+        speed: 0.1344s/iter; left time: 4767.6882s
+        speed: 0.1328s/iter; left time: 4696.2336s
+        speed: 0.1367s/iter; left time: 4821.4425s
+        speed: 0.1323s/iter; left time: 4652.8654s
+        speed: 0.1330s/iter; left time: 4663.1807s
+        speed: 0.1326s/iter; left time: 4636.4102s
+        speed: 0.1310s/iter; left time: 4566.5227s
+        speed: 0.1348s/iter; left time: 4688.1611s
+        speed: 0.1344s/iter; left time: 4659.9761s
+        speed: 0.1349s/iter; left time: 4664.4998s
+        speed: 0.1329s/iter; left time: 4579.4220s
+        speed: 0.1327s/iter; left time: 4560.1146s
+        speed: 0.1327s/iter; left time: 4547.6315s
+        speed: 0.1327s/iter; left time: 4533.9544s
+        speed: 0.1331s/iter; left time: 4534.4356s
+        speed: 0.1329s/iter; left time: 4515.2495s
+        speed: 0.1327s/iter; left time: 4492.4871s
+        speed: 0.1321s/iter; left time: 4459.5625s
+        speed: 0.1325s/iter; left time: 4462.1788s
+        speed: 0.1323s/iter; left time: 4439.3250s
+        speed: 0.1319s/iter; left time: 4412.7133s
+        speed: 0.1311s/iter; left time: 4374.7360s
+        speed: 0.1320s/iter; left time: 4389.9594s
+        speed: 0.1340s/iter; left time: 4444.1671s
+        speed: 0.1326s/iter; left time: 4384.3401s
+        speed: 0.1326s/iter; left time: 4371.0893s
+        speed: 0.1320s/iter; left time: 4337.3896s
+        speed: 0.1316s/iter; left time: 4310.8397s
+        speed: 0.1332s/iter; left time: 4351.4451s
+        speed: 0.1328s/iter; left time: 4326.2828s
+        speed: 0.1314s/iter; left time: 4264.8171s
+        speed: 0.1325s/iter; left time: 4289.3297s
+        speed: 0.1313s/iter; left time: 4237.6214s
+        speed: 0.1318s/iter; left time: 4238.7050s
+        speed: 0.1311s/iter; left time: 4205.2931s
+        speed: 0.1348s/iter; left time: 4309.6877s
+        speed: 0.1333s/iter; left time: 4248.8509s
+        speed: 0.1319s/iter; left time: 4188.9029s
+        speed: 0.1322s/iter; left time: 4187.5830s
+        speed: 0.1325s/iter; left time: 4182.5429s
+        speed: 0.1328s/iter; left time: 4179.9405s
+        speed: 0.1338s/iter; left time: 4197.2682s
+        speed: 0.1329s/iter; left time: 4155.8386s
+        speed: 0.1329s/iter; left time: 4140.6916s
+        speed: 0.1333s/iter; left time: 4141.3600s
+Epoch: 1 cost time: 2062.7143268585205
+Epoch: 1, Steps: 15522 | Train Loss: -48.5435692 Vali Loss: -47.6931987 
+Validation loss decreased (inf --> -47.693199).  Saving model ...
+Updating learning rate to 0.0001
+        speed: 6.0258s/iter; left time: 186468.1956s
+        speed: 0.1308s/iter; left time: 4033.5072s
+        speed: 0.1308s/iter; left time: 4022.1342s
+        speed: 0.1307s/iter; left time: 4006.4807s
+        speed: 0.1308s/iter; left time: 3995.9869s
+        speed: 0.1307s/iter; left time: 3980.3972s
+        speed: 0.1309s/iter; left time: 3970.6736s
+        speed: 0.1309s/iter; left time: 3958.1999s
+^[OQ^[OQ^[OQ^[OQ        speed: 0.1309s/iter; left time: 3945.9536s
+        speed: 0.1308s/iter; left time: 3931.3796s
+        speed: 0.1309s/iter; left time: 3921.0182s
+        speed: 0.1314s/iter; left time: 3921.5496s
+        speed: 0.1312s/iter; left time: 3902.3447s
+        speed: 0.1310s/iter; left time: 3882.8474s
+        speed: 0.1309s/iter; left time: 3867.5952s
+        speed: 0.1310s/iter; left time: 3856.3742s
+        speed: 0.1309s/iter; left time: 3841.6661s
+        speed: 0.1309s/iter; left time: 3829.0400s
+        speed: 0.1309s/iter; left time: 3814.3527s
+        speed: 0.1310s/iter; left time: 3804.2865s
+        speed: 0.1310s/iter; left time: 3790.8479s
+        speed: 0.1309s/iter; left time: 3775.4261s
+        speed: 0.1310s/iter; left time: 3764.2669s
+        speed: 0.1309s/iter; left time: 3750.0061s
+        speed: 0.1310s/iter; left time: 3739.1242s
+        speed: 0.1309s/iter; left time: 3723.0904s
+        speed: 0.1309s/iter; left time: 3708.9739s
+        speed: 0.1307s/iter; left time: 3690.6781s
+        speed: 0.1307s/iter; left time: 3678.1745s
+        speed: 0.1307s/iter; left time: 3665.6734s
+        speed: 0.1307s/iter; left time: 3652.0979s
+        speed: 0.1306s/iter; left time: 3637.0011s
+        speed: 0.1307s/iter; left time: 3626.6841s
+        speed: 0.1308s/iter; left time: 3614.9075s
+        speed: 0.1307s/iter; left time: 3599.8928s
+        speed: 0.1307s/iter; left time: 3588.4087s
+        speed: 0.1307s/iter; left time: 3574.0528s
+        speed: 0.1308s/iter; left time: 3564.3053s
+        speed: 0.1307s/iter; left time: 3547.3972s
+        speed: 0.1308s/iter; left time: 3536.2459s
+        speed: 0.1308s/iter; left time: 3524.9119s
+        speed: 0.1307s/iter; left time: 3507.8174s
+        speed: 0.1307s/iter; left time: 3496.2766s
+        speed: 0.1308s/iter; left time: 3483.9748s
+        speed: 0.1307s/iter; left time: 3470.3360s
+        speed: 0.1307s/iter; left time: 3456.9299s
+        speed: 0.1308s/iter; left time: 3445.3006s
+        speed: 0.1307s/iter; left time: 3430.2476s
+        speed: 0.1307s/iter; left time: 3418.3550s
+        speed: 0.1307s/iter; left time: 3404.0663s
+        speed: 0.1308s/iter; left time: 3392.7847s
+        speed: 0.1308s/iter; left time: 3380.4915s
+        speed: 0.1307s/iter; left time: 3365.9696s
+        speed: 0.1308s/iter; left time: 3353.6591s
+        speed: 0.1307s/iter; left time: 3338.2310s
+        speed: 0.1307s/iter; left time: 3326.1436s
+        speed: 0.1306s/iter; left time: 3311.1183s
+        speed: 0.1307s/iter; left time: 3298.9691s
+        speed: 0.1307s/iter; left time: 3286.3945s
+        speed: 0.1308s/iter; left time: 3274.8659s
+        speed: 0.1307s/iter; left time: 3259.9515s
+        speed: 0.1307s/iter; left time: 3247.2967s
+        speed: 0.1308s/iter; left time: 3236.0210s
+        speed: 0.1306s/iter; left time: 3219.6587s
+        speed: 0.1306s/iter; left time: 3205.6334s
+        speed: 0.1307s/iter; left time: 3194.1490s
+        speed: 0.1308s/iter; left time: 3184.8648s
+        speed: 0.1307s/iter; left time: 3169.2556s
+        speed: 0.1306s/iter; left time: 3154.1261s
+        speed: 0.1307s/iter; left time: 3143.3179s
+        speed: 0.1307s/iter; left time: 3129.2312s
+        speed: 0.1308s/iter; left time: 3119.3461s
+        speed: 0.1307s/iter; left time: 3103.2489s
+        speed: 0.1307s/iter; left time: 3091.0757s
+        speed: 0.1307s/iter; left time: 3077.0882s
+        speed: 0.1307s/iter; left time: 3064.4290s
+        speed: 0.1307s/iter; left time: 3050.1766s
+        speed: 0.1306s/iter; left time: 3036.4913s
+        speed: 0.1307s/iter; left time: 3025.0292s
+        speed: 0.1307s/iter; left time: 3012.7393s
+        speed: 0.1307s/iter; left time: 2998.0686s
+        speed: 0.1307s/iter; left time: 2984.9328s
+        speed: 0.1307s/iter; left time: 2971.8279s
+        speed: 0.1307s/iter; left time: 2960.2575s
+        speed: 0.1308s/iter; left time: 2948.3648s
+        speed: 0.1308s/iter; left time: 2935.5091s
+        speed: 0.1307s/iter; left time: 2919.7920s
+        speed: 0.1307s/iter; left time: 2906.7806s
+        speed: 0.1307s/iter; left time: 2893.3191s
+        speed: 0.1307s/iter; left time: 2880.8517s
+        speed: 0.1306s/iter; left time: 2866.9371s
+        speed: 0.1306s/iter; left time: 2853.6224s
+        speed: 0.1307s/iter; left time: 2841.6408s
+        speed: 0.1307s/iter; left time: 2829.3619s
+        speed: 0.1306s/iter; left time: 2814.3932s
+        speed: 0.1308s/iter; left time: 2804.4245s
+        speed: 0.1308s/iter; left time: 2792.6250s
+        speed: 0.1312s/iter; left time: 2788.1897s
+        speed: 0.1309s/iter; left time: 2768.0050s
+        speed: 0.1309s/iter; left time: 2754.9019s
+        speed: 0.1309s/iter; left time: 2741.8478s
+        speed: 0.1310s/iter; left time: 2729.8426s
+        speed: 0.1309s/iter; left time: 2716.5044s
+        speed: 0.1309s/iter; left time: 2702.9822s
+        speed: 0.1309s/iter; left time: 2689.5829s
+        speed: 0.1309s/iter; left time: 2676.1602s
+        speed: 0.1309s/iter; left time: 2663.0159s
+        speed: 0.1309s/iter; left time: 2650.3979s
+        speed: 0.1309s/iter; left time: 2637.5920s
+        speed: 0.1310s/iter; left time: 2625.1384s
+        speed: 0.1314s/iter; left time: 2621.7065s
+        speed: 0.1310s/iter; left time: 2598.7192s
+        speed: 0.1309s/iter; left time: 2585.2394s
+        speed: 0.1309s/iter; left time: 2571.3276s
+        speed: 0.1309s/iter; left time: 2559.1552s
+        speed: 0.1309s/iter; left time: 2546.2906s
+        speed: 0.1309s/iter; left time: 2532.5335s
+        speed: 0.1309s/iter; left time: 2519.4775s
+        speed: 0.1309s/iter; left time: 2506.3893s
+        speed: 0.1309s/iter; left time: 2493.6696s
+        speed: 0.1309s/iter; left time: 2478.9791s
+        speed: 0.1310s/iter; left time: 2468.2070s
+        speed: 0.1309s/iter; left time: 2454.2312s
+        speed: 0.1309s/iter; left time: 2440.2546s
+        speed: 0.1309s/iter; left time: 2427.3054s
+        speed: 0.1385s/iter; left time: 2555.0664s
+        speed: 0.1352s/iter; left time: 2480.2852s
+        speed: 0.1349s/iter; left time: 2461.7131s
+        speed: 0.1361s/iter; left time: 2470.0150s
+        speed: 0.1317s/iter; left time: 2377.0225s
+        speed: 0.1325s/iter; left time: 2377.1071s
+        speed: 0.1316s/iter; left time: 2348.4993s
+        speed: 0.1353s/iter; left time: 2400.5705s
+        speed: 0.1346s/iter; left time: 2375.4844s
+        speed: 0.1373s/iter; left time: 2408.7093s
+        speed: 0.1335s/iter; left time: 2328.5298s
+        speed: 0.1326s/iter; left time: 2300.2712s
+        speed: 0.1322s/iter; left time: 2279.8765s
+        speed: 0.1375s/iter; left time: 2357.3887s
+        speed: 0.1378s/iter; left time: 2348.6578s
+        speed: 0.1381s/iter; left time: 2340.2908s
+        speed: 0.1323s/iter; left time: 2229.0499s
+        speed: 0.1323s/iter; left time: 2215.5936s
+        speed: 0.1382s/iter; left time: 2299.8648s
+        speed: 0.1327s/iter; left time: 2195.1393s
+        speed: 0.1327s/iter; left time: 2181.6770s
+        speed: 0.1327s/iter; left time: 2169.1713s
+        speed: 0.1326s/iter; left time: 2154.6684s
+        speed: 0.1326s/iter; left time: 2140.5040s
+        speed: 0.1326s/iter; left time: 2128.1377s
+        speed: 0.1326s/iter; left time: 2114.6483s
+        speed: 0.1327s/iter; left time: 2102.6048s
+        speed: 0.1327s/iter; left time: 2089.5837s
+        speed: 0.1327s/iter; left time: 2075.8085s
+        speed: 0.1327s/iter; left time: 2062.2829s
+Epoch: 2 cost time: 2040.1145195960999
+Epoch: 2, Steps: 15522 | Train Loss: -48.8732580 Vali Loss: -47.2175972 
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+        speed: 6.0067s/iter; left time: 92640.5754s
+        speed: 0.1327s/iter; left time: 2033.3899s
+        speed: 0.1328s/iter; left time: 2021.2366s
+        speed: 0.1327s/iter; left time: 2006.2422s
+        speed: 0.1327s/iter; left time: 1993.0626s
+        speed: 0.1326s/iter; left time: 1978.4739s
+        speed: 0.1326s/iter; left time: 1965.5360s
+        speed: 0.1326s/iter; left time: 1952.7072s
+        speed: 0.1326s/iter; left time: 1938.4304s
+        speed: 0.1326s/iter; left time: 1925.1004s
+        speed: 0.1326s/iter; left time: 1911.9638s
+        speed: 0.1325s/iter; left time: 1898.4039s
+        speed: 0.1325s/iter; left time: 1884.5257s
+        speed: 0.1325s/iter; left time: 1871.9060s
+        speed: 0.1326s/iter; left time: 1858.8174s
+        speed: 0.1325s/iter; left time: 1844.6543s
+        speed: 0.1325s/iter; left time: 1831.7583s
+        speed: 0.1325s/iter; left time: 1818.7494s
+        speed: 0.1325s/iter; left time: 1805.4786s
+        speed: 0.1325s/iter; left time: 1792.0745s
+        speed: 0.1327s/iter; left time: 1780.9693s
+        speed: 0.1326s/iter; left time: 1767.2372s
+        speed: 0.1327s/iter; left time: 1754.4860s
+        speed: 0.1327s/iter; left time: 1741.1439s
+        speed: 0.1327s/iter; left time: 1728.6383s
+        speed: 0.1327s/iter; left time: 1714.6858s
+        speed: 0.1327s/iter; left time: 1701.2890s
+        speed: 0.1327s/iter; left time: 1687.8632s
+        speed: 0.1327s/iter; left time: 1675.0705s
+        speed: 0.1328s/iter; left time: 1662.4992s
+        speed: 0.1327s/iter; left time: 1648.7084s
+        speed: 0.1327s/iter; left time: 1634.8401s
+        speed: 0.1326s/iter; left time: 1621.1015s
+        speed: 0.1328s/iter; left time: 1609.3978s
+        speed: 0.1327s/iter; left time: 1595.7450s
+        speed: 0.1327s/iter; left time: 1581.9855s
+        speed: 0.1326s/iter; left time: 1567.7257s
+        speed: 0.1327s/iter; left time: 1555.3732s
+        speed: 0.1327s/iter; left time: 1541.9358s
+        speed: 0.1327s/iter; left time: 1528.5447s
+        speed: 0.1326s/iter; left time: 1514.1960s
+        speed: 0.1326s/iter; left time: 1501.9470s
+        speed: 0.1326s/iter; left time: 1488.4125s
+        speed: 0.1326s/iter; left time: 1474.8109s
+        speed: 0.1326s/iter; left time: 1461.8357s
+        speed: 0.1326s/iter; left time: 1448.7114s
+        speed: 0.1326s/iter; left time: 1434.9810s
+        speed: 0.1327s/iter; left time: 1422.6737s
+        speed: 0.1327s/iter; left time: 1409.2919s
+        speed: 0.1326s/iter; left time: 1395.7759s
+        speed: 0.1325s/iter; left time: 1381.4359s
+        speed: 0.1325s/iter; left time: 1368.3033s
+        speed: 0.1326s/iter; left time: 1355.2747s
+        speed: 0.1326s/iter; left time: 1342.0209s
+        speed: 0.1324s/iter; left time: 1326.9094s
+        speed: 0.1324s/iter; left time: 1313.7570s
+        speed: 0.1325s/iter; left time: 1301.6616s
+        speed: 0.1326s/iter; left time: 1288.8782s
+        speed: 0.1325s/iter; left time: 1274.9386s
+        speed: 0.1325s/iter; left time: 1262.0089s
+        speed: 0.1326s/iter; left time: 1249.0208s
+        speed: 0.1326s/iter; left time: 1235.8392s
+        speed: 0.1325s/iter; left time: 1222.4916s
+        speed: 0.1326s/iter; left time: 1209.3603s
+        speed: 0.1327s/iter; left time: 1196.9339s
+        speed: 0.1327s/iter; left time: 1183.9226s
+        speed: 0.1326s/iter; left time: 1169.5850s
+        speed: 0.1326s/iter; left time: 1157.0865s
+        speed: 0.1326s/iter; left time: 1143.2515s
+        speed: 0.1326s/iter; left time: 1129.7541s
+        speed: 0.1326s/iter; left time: 1116.5244s
+        speed: 0.1326s/iter; left time: 1103.2826s
+        speed: 0.1326s/iter; left time: 1090.3631s
+        speed: 0.1326s/iter; left time: 1077.1252s
+        speed: 0.1326s/iter; left time: 1063.4824s
+        speed: 0.1326s/iter; left time: 1050.2012s
+        speed: 0.1326s/iter; left time: 1037.1020s
+        speed: 0.1327s/iter; left time: 1024.8276s
+        speed: 0.1326s/iter; left time: 1010.5044s
+        speed: 0.1326s/iter; left time: 997.7274s
+        speed: 0.1326s/iter; left time: 984.1503s
+        speed: 0.1326s/iter; left time: 970.7287s
+        speed: 0.1326s/iter; left time: 957.8701s
+        speed: 0.1326s/iter; left time: 944.3251s
+        speed: 0.1325s/iter; left time: 930.7580s
+        speed: 0.1326s/iter; left time: 917.7316s
+        speed: 0.1326s/iter; left time: 904.5107s
+        speed: 0.1326s/iter; left time: 891.3810s
+        speed: 0.1326s/iter; left time: 878.1235s
+        speed: 0.1326s/iter; left time: 865.0504s
+        speed: 0.1326s/iter; left time: 851.4605s
+        speed: 0.1326s/iter; left time: 838.4271s
+        speed: 0.1326s/iter; left time: 825.0617s
+        speed: 0.1326s/iter; left time: 811.7680s
+        speed: 0.1325s/iter; left time: 798.2290s
+        speed: 0.1325s/iter; left time: 785.0366s
+        speed: 0.1325s/iter; left time: 771.5843s
+        speed: 0.1326s/iter; left time: 758.8055s
+        speed: 0.1325s/iter; left time: 745.1934s
+        speed: 0.1326s/iter; left time: 732.1163s
+        speed: 0.1326s/iter; left time: 718.9291s
+        speed: 0.1325s/iter; left time: 705.4802s
+        speed: 0.1326s/iter; left time: 692.4700s
+        speed: 0.1326s/iter; left time: 679.2083s
+        speed: 0.1326s/iter; left time: 665.9703s
+        speed: 0.1326s/iter; left time: 652.5601s
+        speed: 0.1326s/iter; left time: 639.2929s
+        speed: 0.1378s/iter; left time: 650.5958s
+        speed: 0.1367s/iter; left time: 632.1378s
+        speed: 0.1359s/iter; left time: 614.5639s
+        speed: 0.1340s/iter; left time: 592.8030s
+        speed: 0.1353s/iter; left time: 584.7773s
+        speed: 0.1324s/iter; left time: 559.1532s
+        speed: 0.1341s/iter; left time: 552.9163s
+        speed: 0.1356s/iter; left time: 545.4605s
+        speed: 0.1311s/iter; left time: 514.2526s
+        speed: 0.1362s/iter; left time: 520.5024s
+        speed: 0.1369s/iter; left time: 509.6048s
+        speed: 0.1389s/iter; left time: 503.1192s
+        speed: 0.1384s/iter; left time: 487.5295s
+        speed: 0.1432s/iter; left time: 490.1263s
+        speed: 0.1384s/iter; left time: 459.9365s
+        speed: 0.1360s/iter; left time: 438.4787s
+        speed: 0.1333s/iter; left time: 416.4411s
+        speed: 0.1387s/iter; left time: 419.1484s
+        speed: 0.1413s/iter; left time: 412.9525s
+        speed: 0.1312s/iter; left time: 370.2603s
+        speed: 0.1304s/iter; left time: 355.2077s
+        speed: 0.1306s/iter; left time: 342.5309s
+        speed: 0.1306s/iter; left time: 329.4502s
+        speed: 0.1306s/iter; left time: 316.3666s
+        speed: 0.1317s/iter; left time: 306.0309s
+        speed: 0.1378s/iter; left time: 306.3689s
+        speed: 0.1367s/iter; left time: 290.1573s
+        speed: 0.1350s/iter; left time: 273.0320s
+        speed: 0.1343s/iter; left time: 258.3113s
+        speed: 0.1343s/iter; left time: 244.8855s
+        speed: 0.1348s/iter; left time: 232.1813s
+        speed: 0.1405s/iter; left time: 228.0760s
+        speed: 0.1363s/iter; left time: 207.6108s
+        speed: 0.1320s/iter; left time: 187.7987s
+        speed: 0.1316s/iter; left time: 174.1588s
+        speed: 0.1311s/iter; left time: 160.3451s
+        speed: 0.1341s/iter; left time: 150.6309s
+        speed: 0.1336s/iter; left time: 136.6599s
+        speed: 0.1321s/iter; left time: 121.8916s
+        speed: 0.1369s/iter; left time: 112.6477s
+        speed: 0.1322s/iter; left time: 95.5755s
+        speed: 0.1350s/iter; left time: 84.1019s
+        speed: 0.1357s/iter; left time: 70.9606s
+        speed: 0.1340s/iter; left time: 56.7019s
+        speed: 0.1383s/iter; left time: 44.6549s
+        speed: 0.1385s/iter; left time: 30.8794s
+        speed: 0.1327s/iter; left time: 16.3245s
+        speed: 0.1378s/iter; left time: 3.1698s
+Epoch: 3 cost time: 2070.06551527977
+Epoch: 3, Steps: 15522 | Train Loss: -48.9882497 Vali Loss: -47.9472141 
+Validation loss decreased (-47.693199 --> -47.947214).  Saving model ...
+Updating learning rate to 2.5e-05
+------------ Options -------------
+anormly_ratio: 0.1
+batch_size: 32
+data_path: dataset/SWaT
+dataset: SWaT
+input_c: 51
+k: 3
+lr: 0.0001
+mode: test
+model_save_path: checkpoints
+num_epochs: 10
+output_c: 51
+pretrained_model: 10
+win_size: 100
+-------------- End ----------------
+test: (449919, 51)
+train: (496800, 51)
+test: (449919, 51)
+train: (496800, 51)
+test: (449919, 51)
+train: (496800, 51)
+test: (449919, 51)
+train: (496800, 51)
+======================TEST MODE======================
+/home/ranlychan/anaconda3/envs/Anomaly-Transformer/lib/python3.6/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+Threshold : 0.0032192275498528246
+pred:    (449900,)
+gt:      (449900,)
+pred:  (449900,)
+gt:    (449900,)
+Accuracy : 0.9771, Precision : 0.8965, Recall : 0.9172, F-score : 0.9067 
